@@ -427,3 +427,1380 @@ LogInit: Object subsystem initialized
 [2018.11.02-19.40.20:245][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.11.02-19.40.20:295][119]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2018.11.02-19.40.22:465][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.41.28:425][964]LogSlate: Window 'Message Log' being destroyed
+[2018.11.02-19.41.28:436][964]LogSlate: Window 'Message Log' being destroyed
+[2018.11.02-19.41.28:932][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.41.29:025][  8]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.41.29:059][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.41.29:059][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.41.29:059][  8]PIE: New page: PIE session: Level_01 (Nov 2, 2018, 11:41:29 AM)
+[2018.11.02-19.41.29:059][  8]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01
+[2018.11.02-19.41.29:077][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017423s)
+[2018.11.02-19.41.29:077][  8]LogAIModule: Creating AISystem for world Level_01
+[2018.11.02-19.41.29:077][  8]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.11.02-19.41.29:077][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_01.Level_01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 (0.018169s)
+[2018.11.02-19.41.29:104][  8]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.41.29:116][  8]LogInit: FAudioDevice initialized.
+[2018.11.02-19.41.29:146][  8]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.41.29:149][  8]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.41.29:149][  8]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder3.Box' 
+[2018.11.02-19.41.29:149][  8]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder4.Box' 
+[2018.11.02-19.41.29:149][  8]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder5_2.Box' 
+[2018.11.02-19.41.29:152][  8]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2018.11.02-15.41.29
+[2018.11.02-19.41.29:153][  8]LogWorld: Bringing up level for play took: 0.005821
+[2018.11.02-19.41.29:166][  8]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01 0.796
+[2018.11.02-19.41.29:166][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.41.58:509][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon2_5
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:509][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:509][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon3_8
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:509][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:510][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon4_2
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:510][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:510][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon5_5
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:511][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:511][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon6_8
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:511][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:512][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon7_11
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:512][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:512][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon8_14
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:513][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:513][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
+	Racoon_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Racoon_2
+	Function /Game/2DSideScrollerBP/Blueprints/Racoon/Racoon.Racoon_C:ExecuteUbergraph_Racoon:0183
+[2018.11.02-19.41.58:514][569]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue". Blueprint:  Racoon Function:  Execute Ubergraph Racoon Graph:  EventGraph Node:  SetActorRotation
+[2018.11.02-19.41.58:525][570]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Level_01
+[2018.11.02-19.41.58:533][570]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Level_01
+[2018.11.02-19.41.58:570][570]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01
+[2018.11.02-19.41.58:587][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016950s)
+[2018.11.02-19.41.58:587][570]LogAIModule: Creating AISystem for world Level_01
+[2018.11.02-19.41.58:588][570]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2018.11.02-19.41.58:588][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_01.Level_01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 (0.017926s)
+[2018.11.02-19.41.58:588][570]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.41.58:591][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.41.58:591][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder3.Box' 
+[2018.11.02-19.41.58:591][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder4.Box' 
+[2018.11.02-19.41.58:592][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder5_2.Box' 
+[2018.11.02-19.41.58:594][570]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2018.11.02-15.41.58
+[2018.11.02-19.41.58:596][570]LogWorld: Bringing up level for play took: 0.006547
+[2018.11.02-19.41.58:597][570]LogLoad: Took 0.063684 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01)
+[2018.11.02-19.42.21:569][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.21:569][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.42.21:605][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.42.21:605][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.21:630][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.42.21:672][655]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.11.02-19.42.22:820][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.42.22:899][740]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.42.22:935][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.22:935][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.42.22:935][740]PIE: New page: PIE session: Level_01 (Nov 2, 2018, 11:42:22 AM)
+[2018.11.02-19.42.22:935][740]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01
+[2018.11.02-19.42.22:952][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016930s)
+[2018.11.02-19.42.22:953][740]LogAIModule: Creating AISystem for world Level_01
+[2018.11.02-19.42.22:953][740]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2018.11.02-19.42.22:953][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_01.Level_01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 (0.017734s)
+[2018.11.02-19.42.22:976][740]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.42.22:989][740]LogInit: FAudioDevice initialized.
+[2018.11.02-19.42.23:024][740]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.42.23:026][740]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.42.23:027][740]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder3.Box' 
+[2018.11.02-19.42.23:027][740]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder4.Box' 
+[2018.11.02-19.42.23:027][740]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder5_2.Box' 
+[2018.11.02-19.42.23:030][740]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 0) at 2018.11.02-15.42.23
+[2018.11.02-19.42.23:031][740]LogWorld: Bringing up level for play took: 0.006288
+[2018.11.02-19.42.23:044][740]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01 0.674
+[2018.11.02-19.42.23:045][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.44:206][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.44:206][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.42.44:249][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.42.44:249][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.42.44:272][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.42.44:308][519]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.11.02-19.43.13:276][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.43.14:623][408]PIE: Warning: Constraint in '/Engine/Transient.World_0:PersistentLevel.Weight_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.11.02-19.43.15:709][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2018.11.02-19.43.16:459][472]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.11.02-19.43.17:491][472]LogSlate: Took 0.005791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.02-19.43.17:786][473]LogSlate: Took 0.007541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.02-19.45.08:517][540]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.46.23:829][677]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.46.24:200][678]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.46.25:296][706]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/2DSideScrollerCharacter1AC1F6B64C50D31316B7F5AACA1437C3.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.02-19.46.26:611][764]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.46.26:660][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.26:660][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.46.26:660][764]PIE: New page: PIE session: Level_01 (Nov 2, 2018, 11:46:26 AM)
+[2018.11.02-19.46.26:660][764]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01
+[2018.11.02-19.46.26:683][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022515s)
+[2018.11.02-19.46.26:684][764]LogAIModule: Creating AISystem for world Level_01
+[2018.11.02-19.46.26:684][764]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2018.11.02-19.46.26:684][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_01.Level_01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 (0.023454s)
+[2018.11.02-19.46.26:715][764]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.46.26:728][764]LogInit: FAudioDevice initialized.
+[2018.11.02-19.46.26:764][764]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.46.26:767][764]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.46.26:767][764]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder3.Box' 
+[2018.11.02-19.46.26:767][764]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder4.Box' 
+[2018.11.02-19.46.26:767][764]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder5_2.Box' 
+[2018.11.02-19.46.26:771][764]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 60) at 2018.11.02-15.46.26
+[2018.11.02-19.46.26:772][764]LogWorld: Bringing up level for play took: 0.006995
+[2018.11.02-19.46.26:786][764]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01 0.416
+[2018.11.02-19.46.26:786][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.28:057][812]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/2DSideScrollerCharacter3D442E9647D595BA4E37A889ABECC8A1.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.02-19.46.29:170][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.29:171][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.46.29:233][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.46.29:234][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.29:266][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.46.29:379][858]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.11.02-19.46.32:898][ 54]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.46.32:934][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.32:934][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.46.32:934][ 54]PIE: New page: PIE session: Level_01 (Nov 2, 2018, 11:46:32 AM)
+[2018.11.02-19.46.32:934][ 54]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01
+[2018.11.02-19.46.32:953][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018186s)
+[2018.11.02-19.46.32:953][ 54]LogAIModule: Creating AISystem for world Level_01
+[2018.11.02-19.46.32:953][ 54]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.11.02-19.46.32:953][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_01.Level_01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 (0.018948s)
+[2018.11.02-19.46.32:979][ 54]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.46.32:991][ 54]LogInit: FAudioDevice initialized.
+[2018.11.02-19.46.33:020][ 54]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.46.33:022][ 54]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.46.33:022][ 54]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder3.Box' 
+[2018.11.02-19.46.33:022][ 54]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder4.Box' 
+[2018.11.02-19.46.33:022][ 54]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01:PersistentLevel.Ladder5_2.Box' 
+[2018.11.02-19.46.33:026][ 54]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01.Level_01 up for play (max tick rate 60) at 2018.11.02-15.46.33
+[2018.11.02-19.46.33:027][ 54]LogWorld: Bringing up level for play took: 0.006169
+[2018.11.02-19.46.33:040][ 54]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_01 0.67
+[2018.11.02-19.46.33:040][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.41:557][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.41:557][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.46.41:605][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.46.41:605][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Level_01.Level_01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Level_01.Level_01:PersistentLevel.Level_01'
+[2018.11.02-19.46.41:637][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.46.41:668][566]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.02-19.46.44:600][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.46.47:455][895]LogAIModule: Creating AISystem for world Level_02
+[2018.11.02-19.46.47:461][895]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level_02.Level_02
+[2018.11.02-19.46.49:279][895]LogSlate: Window 'Save Content' being destroyed
+[2018.11.02-19.46.50:062][895]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_01ADC7C07444E9697A1EF86789ADC56FB2.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_01.umap'
+[2018.11.02-19.46.50:116][895]LogFileHelpers: Saving map 'Level_01' took 0.828
+[2018.11.02-19.46.50:116][895]Cmd: MAP LOAD FILE="../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.02-19.46.50:117][895]LightingResults: New page: Lighting Build
+[2018.11.02-19.46.50:117][895]LoadErrors: New page: Loading map: Level_02.umap
+[2018.11.02-19.46.50:119][895]MapCheck: New page: Map Check
+[2018.11.02-19.46.50:119][895]LightingResults: New page: Lighting Build
+[2018.11.02-19.46.50:240][895]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.02-19.46.50:321][895]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.02-19.46.50:412][895]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.204ms to complete.
+[2018.11.02-19.46.50:412][895]LogFileHelpers: Loading map 'Level_02' took 0.295
+[2018.11.02-19.46.51:154][932]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.46.51:188][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.46.51:189][932]PIE: New page: PIE session: Level_02 (Nov 2, 2018, 11:46:51 AM)
+[2018.11.02-19.46.51:189][932]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02
+[2018.11.02-19.46.51:201][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012305s)
+[2018.11.02-19.46.51:202][932]LogAIModule: Creating AISystem for world Level_02
+[2018.11.02-19.46.51:202][932]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2018.11.02-19.46.51:202][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_02.Level_02 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02.Level_02 (0.013157s)
+[2018.11.02-19.46.51:232][932]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.46.51:243][932]LogInit: FAudioDevice initialized.
+[2018.11.02-19.46.51:275][932]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.46.51:279][932]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 60) at 2018.11.02-15.46.51
+[2018.11.02-19.46.51:280][932]LogWorld: Bringing up level for play took: 0.003829
+[2018.11.02-19.46.51:296][932]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02 0.926
+[2018.11.02-19.47.00:578][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.00:612][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.47.00:639][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.00:690][492]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.02-19.47.02:985][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.02-19.47.21:550][687]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.47.22:492][704]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/2DSideScrollerCharacter6F7E6366459672A3658E0A908262ADCA.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.02-19.47.23:150][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.47.23:974][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.47.24:058][780]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.47.24:093][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.47.24:093][780]PIE: New page: PIE session: Level_02 (Nov 2, 2018, 11:47:24 AM)
+[2018.11.02-19.47.24:093][780]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02
+[2018.11.02-19.47.24:109][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015830s)
+[2018.11.02-19.47.24:109][780]LogAIModule: Creating AISystem for world Level_02
+[2018.11.02-19.47.24:110][780]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.11.02-19.47.24:110][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_02.Level_02 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02.Level_02 (0.016705s)
+[2018.11.02-19.47.24:144][780]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.47.24:157][780]LogInit: FAudioDevice initialized.
+[2018.11.02-19.47.24:192][780]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.47.24:197][780]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02.Level_02 up for play (max tick rate 60) at 2018.11.02-15.47.24
+[2018.11.02-19.47.24:197][780]LogWorld: Bringing up level for play took: 0.004536
+[2018.11.02-19.47.24:211][780]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_02 -0.159
+[2018.11.02-19.47.27:172][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.27:205][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.47.27:236][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.27:287][959]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.02-19.47.30:955][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.47.31:414][189]LogAIModule: Creating AISystem for world Level_04
+[2018.11.02-19.47.31:423][189]LogAssetEditorManager: Opening Asset editor for World /Game/2DSideScrollerBP/Maps/Level_04.Level_04
+[2018.11.02-19.47.31:454][189]Cmd: MAP LOAD FILE="../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_04.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.02-19.47.31:454][189]LightingResults: New page: Lighting Build
+[2018.11.02-19.47.31:454][189]LoadErrors: New page: Loading map: Level_04.umap
+[2018.11.02-19.47.31:456][189]MapCheck: New page: Map Check
+[2018.11.02-19.47.31:456][189]LightingResults: New page: Lighting Build
+[2018.11.02-19.47.31:571][189]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.02-19.47.31:654][189]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.02-19.47.31:750][189]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.135ms to complete.
+[2018.11.02-19.47.31:751][189]LogFileHelpers: Loading map 'Level_04' took 0.298
+[2018.11.02-19.47.32:962][257]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.47.32:991][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.47.32:991][257]PIE: New page: PIE session: Level_04 (Nov 2, 2018, 11:47:32 AM)
+[2018.11.02-19.47.32:991][257]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_04
+[2018.11.02-19.47.32:995][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003880s)
+[2018.11.02-19.47.32:996][257]LogAIModule: Creating AISystem for world Level_04
+[2018.11.02-19.47.32:997][257]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2018.11.02-19.47.32:997][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_04.Level_04 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_04.Level_04 (0.005237s)
+[2018.11.02-19.47.33:031][257]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.47.33:042][257]LogInit: FAudioDevice initialized.
+[2018.11.02-19.47.33:070][257]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.47.33:072][257]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_04.Level_04 up for play (max tick rate 60) at 2018.11.02-15.47.33
+[2018.11.02-19.47.33:073][257]LogWorld: Bringing up level for play took: 0.001637
+[2018.11.02-19.47.33:087][257]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_04 0.718
+[2018.11.02-19.47.36:731][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.36:768][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.47.36:802][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.36:830][476]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.02-19.47.37:470][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.47.45:667][987]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_031E2170284BF6B27EAA1A6E9B6A1A60B3.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_03.umap'
+[2018.11.02-19.47.45:723][987]LogFileHelpers: Saving map 'Level_03' took 0.231
+[2018.11.02-19.47.47:421][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.47.47:449][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.47.47:449][ 75]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:47:47 AM)
+[2018.11.02-19.47.47:449][ 75]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.47.47:452][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002771s)
+[2018.11.02-19.47.47:452][ 75]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.47.47:452][ 75]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.11.02-19.47.47:453][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003480s)
+[2018.11.02-19.47.47:488][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.47.47:500][ 75]LogInit: FAudioDevice initialized.
+[2018.11.02-19.47.47:532][ 75]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.47.47:534][ 75]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.47.47
+[2018.11.02-19.47.47:534][ 75]LogWorld: Bringing up level for play took: 0.001753
+[2018.11.02-19.47.47:548][ 75]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 -0.821
+[2018.11.02-19.47.53:170][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.53:202][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.47.53:231][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.47.53:282][414]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.02-19.47.54:249][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.47.54:520][478]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_03D6F0EE1B41E508C38845B39E18E340D5.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_03.umap'
+[2018.11.02-19.52.09:732][140]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.52.10:746][158]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/2DSideScrollerCharacter47EA2948410A55604D7FEEB2666589A1.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.02-19.52.16:677][300]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.52.16:703][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.52.16:704][300]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:52:16 AM)
+[2018.11.02-19.52.16:704][300]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.52.16:707][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003075s)
+[2018.11.02-19.52.16:707][300]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.52.16:707][300]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2018.11.02-19.52.16:707][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003817s)
+[2018.11.02-19.52.16:739][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.52.16:751][300]LogInit: FAudioDevice initialized.
+[2018.11.02-19.52.16:780][300]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.52.16:782][300]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.52.16
+[2018.11.02-19.52.16:783][300]LogWorld: Bringing up level for play took: 0.001904
+[2018.11.02-19.52.16:798][300]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.428
+[2018.11.02-19.52.28:918][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.52.28:955][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.52.28:986][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.52.29:037][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.02-19.52.30:584][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.02-19.52.34:332][246]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.11.02-19.52.43:574][358]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/2DSideScrollerCharacterFA890E484C30A514DC66CA9FF78EFE87.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.11.02-19.52.45:235][451]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.52.45:270][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.52.45:270][451]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:52:45 AM)
+[2018.11.02-19.52.45:270][451]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.52.45:273][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002658s)
+[2018.11.02-19.52.45:273][451]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.52.45:273][451]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2018.11.02-19.52.45:273][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003309s)
+[2018.11.02-19.52.45:309][451]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.52.45:320][451]LogInit: FAudioDevice initialized.
+[2018.11.02-19.52.45:350][451]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.52.45:352][451]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.52.45
+[2018.11.02-19.52.45:352][451]LogWorld: Bringing up level for play took: 0.001630
+[2018.11.02-19.52.45:366][451]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.996
+[2018.11.02-19.53.05:704][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.53.05:741][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.53.05:772][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.53.05:807][672]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.02-19.53.18:703][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.53.18:828][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_C_0.Box' 
+[2018.11.02-19.53.18:828][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:829][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:829][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:829][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:829][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:831][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:834][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:857][451]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:860][451]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:873][452]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:877][452]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:885][452]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:891][453]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:907][454]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:924][455]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:931][455]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:940][456]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:947][456]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:957][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:963][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:974][458]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:980][458]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:991][459]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.18:995][459]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:007][460]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:011][460]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:041][462]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:091][465]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:108][466]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:124][467]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:141][468]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:147][468]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:158][469]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:164][469]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:175][470]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:181][470]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:191][471]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:196][471]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:208][472]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:212][472]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:224][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:228][473]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:241][474]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:244][474]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:258][475]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:261][475]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:267][475]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:274][476]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:291][477]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:308][478]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:330][479]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:333][479]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:339][479]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:347][480]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:364][481]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:415][484]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:448][486]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:451][486]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:472][487]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:482][488]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:487][488]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:492][488]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:505][489]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:522][490]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:532][491]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:548][492]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder.Box' 
+[2018.11.02-19.53.19:742][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_C_1.Box' 
+[2018.11.02-19.53.19:742][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.19:742][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.19:761][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.19:762][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.19:762][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:187][878]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:236][881]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:286][884]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:403][891]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:486][896]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:621][904]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:686][908]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:703][909]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:737][911]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.26:885][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.28:228][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.53.29:534][ 77]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.29:535][ 77]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.29:536][ 77]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:783][329]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:805][330]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:824][331]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:841][332]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:859][333]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:876][334]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:892][335]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:909][336]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:926][337]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:942][338]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:959][339]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:977][340]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.33:993][341]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:009][342]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:025][343]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:041][344]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:058][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:075][346]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:091][347]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:108][348]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:125][349]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:142][350]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:159][351]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:177][352]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:192][353]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:209][354]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:225][355]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:242][356]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:259][357]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:276][358]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:292][359]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:308][360]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:325][361]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:342][362]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:359][363]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:376][364]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.34:474][370]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:360][481]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:394][483]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:544][492]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:727][503]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:827][509]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:894][513]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.36:993][519]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:833][861]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:850][862]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:866][863]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:883][864]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:901][865]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:917][866]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:931][867]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:948][868]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:965][869]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.42:983][870]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:012][871]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:031][872]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:068][874]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:303][888]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:353][891]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.43:586][905]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.45:072][992]LogEditorViewport: Clicking Background
+[2018.11.02-19.53.46:906][101]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.53.50:325][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:341][303]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:376][305]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:391][306]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:409][307]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:430][308]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:449][309]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:478][310]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:501][311]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:522][312]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:543][313]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:570][314]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:592][315]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:614][316]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:655][318]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.50:742][323]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:780][442]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:800][443]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:822][444]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:845][445]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:870][446]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:895][447]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:920][448]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:949][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.52:976][450]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:005][451]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:034][452]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:065][453]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:097][454]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:129][455]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:163][456]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:197][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:330][464]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:367][465]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:403][466]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:438][467]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:472][468]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:601][475]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:633][476]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:697][479]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:810][485]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.53:858][487]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.54:604][531]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.54:701][536]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.55:182][564]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.53.57:520][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.02-19.54.02:428][991]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.04:732][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.54.07:906][318]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.09:967][442]LogEditorViewport: Clicking Background
+[2018.11.02-19.54.11:003][504]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.54.12:343][583]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.54.17:797][908]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.17:880][913]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.17:900][914]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:013][921]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:047][923]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:098][926]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:115][927]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:230][934]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:281][937]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:301][938]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:314][939]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:481][949]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:564][954]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.18:600][956]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.19:019][980]LogEditorViewport: Clicking Background
+[2018.11.02-19.54.23:571][252]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.54.25:114][343]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:147][345]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:164][346]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:181][347]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:198][348]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:214][349]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:232][350]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:247][351]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:297][354]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:314][355]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:331][356]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:348][357]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:364][358]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:397][360]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:497][366]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:597][372]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:665][376]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:682][377]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.25:715][379]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.26:431][422]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.26:450][423]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.26:766][442]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.27:163][465]LogEditorViewport: Clicking Background
+[2018.11.02-19.54.33:861][866]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.54.35:456][960]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.35:889][986]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.36:107][999]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.36:555][ 26]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_2.Box' 
+[2018.11.02-19.54.37:066][ 56]LogEditorViewport: Clicking Background
+[2018.11.02-19.54.40:202][244]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.54.40:978][289]Cmd: EDIT COPY
+[2018.11.02-19.54.41:198][302]Cmd: EDIT PASTE
+[2018.11.02-19.54.41:205][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_3.Box' 
+[2018.11.02-19.54.41:217][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_3.Box' 
+[2018.11.02-19.54.41:221][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder_3.Box' 
+[2018.11.02-19.54.41:225][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.41:228][302]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:655][446]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:673][447]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:691][448]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:707][449]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:724][450]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:743][451]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:761][452]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:778][453]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:798][454]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:811][455]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:831][456]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:844][457]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:864][458]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:877][459]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:898][460]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:911][461]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:931][462]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:944][463]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:960][464]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.43:977][465]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.44:060][470]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:271][541]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:288][542]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:305][543]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:321][544]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:338][545]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:354][546]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:372][547]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:388][548]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:405][549]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:422][550]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:439][551]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:491][554]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:675][565]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:691][566]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:711][567]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:728][568]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:748][569]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:763][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:780][571]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:797][572]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:817][573]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:833][574]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:850][575]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:867][576]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:883][577]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:900][578]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:917][579]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.45:999][584]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.46:050][587]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.46:182][595]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.46:367][606]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.46:433][610]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:083][649]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:116][651]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:134][652]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:150][653]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:166][654]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:184][655]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:200][656]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:216][657]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:233][658]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:250][659]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:266][660]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:283][661]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:300][662]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:351][665]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.47:715][687]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:399][727]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:416][728]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:435][729]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:452][730]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:471][731]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:488][732]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:508][733]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:535][734]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:549][735]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:568][736]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:584][737]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:601][738]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:618][739]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:636][740]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:651][741]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:667][742]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:684][743]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:703][744]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:720][745]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:737][746]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:754][747]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:771][748]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:788][749]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:804][750]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:821][751]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:838][752]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:855][753]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:871][754]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.48:904][756]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:037][764]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:070][766]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:287][779]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:320][781]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:338][782]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:355][783]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:373][784]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.49:589][797]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.50:924][876]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.50:944][877]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.50:960][878]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.50:980][879]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.50:998][880]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:016][881]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:034][882]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:054][883]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:072][884]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:089][885]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:108][886]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:143][888]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:159][889]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:359][901]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:376][902]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:393][903]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:559][913]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:625][917]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:645][918]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:663][919]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:680][920]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:697][921]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:713][922]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:780][926]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:847][930]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.51:964][937]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:033][941]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:134][947]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:146][948]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:164][949]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:198][951]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:215][952]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:231][953]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:248][954]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:681][980]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:730][983]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:780][986]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.52:882][992]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.53:181][ 10]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.53:580][ 34]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.55:398][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.55:599][154]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:382][201]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:583][213]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:598][214]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:616][215]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:681][219]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.56:783][225]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.57:399][262]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.54.57:831][288]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:009][537]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:030][538]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:045][539]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:062][540]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:078][541]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:095][542]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:112][543]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:128][544]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:145][545]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:181][547]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:195][548]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:212][549]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:229][550]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:262][552]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:279][553]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:329][556]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:498][566]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:512][567]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:528][568]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:546][569]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:561][570]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:579][571]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:595][572]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:962][594]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.02:979][595]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.03:029][598]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.03:064][600]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.03:478][625]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.03:663][636]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.03:966][653]LogEditorViewport: Clicking Background
+[2018.11.02-19.55.05:091][720]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2018.11.02-19.55.08:154][902]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.08:570][927]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.08:869][944]LogEditorViewport: Clicking Background
+[2018.11.02-19.55.11:042][ 74]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2018.11.02-19.55.12:857][181]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.13:306][208]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.13:613][225]LogEditorViewport: Clicking Background
+[2018.11.02-19.55.14:786][295]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2018.11.02-19.55.16:232][380]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.16:384][389]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.16:765][412]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.17:049][428]LogEditorViewport: Clicking Background
+[2018.11.02-19.55.18:155][494]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2018.11.02-19.55.19:569][577]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.19:619][580]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.19:702][585]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.19:735][587]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.20:085][608]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/2DSideScrollerBP/Maps/Level_03.Level_03:PersistentLevel.Ladder2.Box' 
+[2018.11.02-19.55.20:386][625]LogEditorViewport: Clicking Background
+[2018.11.02-19.55.44:195][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.55.44:262][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.55.44:289][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.55.44:289][ 57]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:55:44 AM)
+[2018.11.02-19.55.44:290][ 57]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.55.44:294][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004196s)
+[2018.11.02-19.55.44:294][ 57]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.55.44:294][ 57]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2018.11.02-19.55.44:294][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.004907s)
+[2018.11.02-19.55.44:344][ 57]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.55.44:356][ 57]LogInit: FAudioDevice initialized.
+[2018.11.02-19.55.44:390][ 57]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.55.44:392][ 57]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.55.44
+[2018.11.02-19.55.44:393][ 57]LogWorld: Bringing up level for play took: 0.002327
+[2018.11.02-19.55.44:407][ 57]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.038
+[2018.11.02-19.55.57:992][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.55.58:025][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.55.58:055][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.55.58:105][875]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.11.02-19.55.59:490][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.55.59:573][963]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.55.59:598][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.55.59:598][963]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:55:59 AM)
+[2018.11.02-19.55.59:599][963]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.55.59:602][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003641s)
+[2018.11.02-19.55.59:603][963]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.55.59:603][963]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2018.11.02-19.55.59:603][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.004424s)
+[2018.11.02-19.55.59:634][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.55.59:647][963]LogInit: FAudioDevice initialized.
+[2018.11.02-19.55.59:679][963]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.55.59:681][963]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.55.59
+[2018.11.02-19.55.59:682][963]LogWorld: Bringing up level for play took: 0.002058
+[2018.11.02-19.55.59:696][963]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 -0.673
+[2018.11.02-19.56.17:444][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.56.17:479][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.56.17:510][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.56.17:546][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.02-19.56.23:215][365]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder2)
+[2018.11.02-19.56.24:291][428]Cmd: DELETE
+[2018.11.02-19.56.24:291][428]Cmd: ACTOR DELETE
+[2018.11.02-19.56.24:294][428]LogEditorActor: Deleted Actor: Ladder_C
+[2018.11.02-19.56.24:326][428]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.11.02-19.56.26:873][581]LogEditorViewport: Clicking on Actor (LMB): Ladder_C (Ladder)
+[2018.11.02-19.56.27:299][605]Cmd: DELETE
+[2018.11.02-19.56.27:299][605]Cmd: ACTOR DELETE
+[2018.11.02-19.56.27:301][605]LogEditorActor: Deleted Actor: Ladder_C
+[2018.11.02-19.56.27:330][605]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.11.02-19.56.33:046][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.56.33:128][952]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.56.33:154][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.56.33:154][952]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:56:33 AM)
+[2018.11.02-19.56.33:154][952]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.56.33:157][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002913s)
+[2018.11.02-19.56.33:158][952]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.56.33:158][952]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2018.11.02-19.56.33:158][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003696s)
+[2018.11.02-19.56.33:188][952]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.56.33:199][952]LogInit: FAudioDevice initialized.
+[2018.11.02-19.56.33:230][952]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.56.33:232][952]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.56.33
+[2018.11.02-19.56.33:232][952]LogWorld: Bringing up level for play took: 0.001560
+[2018.11.02-19.56.33:246][952]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.877
+[2018.11.02-19.56.41:972][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.56.42:008][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.56.42:039][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.56.42:074][477]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.11.02-19.56.46:460][739]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge279)
+[2018.11.02-19.56.50:030][948]LogEditorViewport: Clicking on Actor (LMB): Racoon_C (Racoon2)
+[2018.11.02-19.56.52:992][120]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge287)
+[2018.11.02-19.56.58:036][418]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge281)
+[2018.11.02-19.57.00:476][561]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge286)
+[2018.11.02-19.57.03:394][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.57.03:493][739]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.57.03:519][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.57.03:521][739]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:57:03 AM)
+[2018.11.02-19.57.03:521][739]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.57.03:524][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003068s)
+[2018.11.02-19.57.03:524][739]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.57.03:524][739]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2018.11.02-19.57.03:524][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003756s)
+[2018.11.02-19.57.03:558][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.57.03:570][739]LogInit: FAudioDevice initialized.
+[2018.11.02-19.57.03:600][739]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.57.03:602][739]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.57.03
+[2018.11.02-19.57.03:603][739]LogWorld: Bringing up level for play took: 0.001829
+[2018.11.02-19.57.03:616][739]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 -0.753
+[2018.11.02-19.57.07:754][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.57.07:791][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.57.07:820][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.57.07:855][989]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.02-19.57.12:826][283]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge280)
+[2018.11.02-19.57.13:678][332]Cmd: EDIT COPY
+[2018.11.02-19.57.13:900][345]Cmd: EDIT PASTE
+[2018.11.02-19.57.18:732][632]Cmd: SELECT NONE
+[2018.11.02-19.57.20:115][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.57.20:232][722]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.57.20:260][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.57.20:260][722]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:57:20 AM)
+[2018.11.02-19.57.20:260][722]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.57.20:263][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003013s)
+[2018.11.02-19.57.20:263][722]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.57.20:264][722]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2018.11.02-19.57.20:264][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003768s)
+[2018.11.02-19.57.20:298][722]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.57.20:310][722]LogInit: FAudioDevice initialized.
+[2018.11.02-19.57.20:345][722]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.57.20:347][722]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 60) at 2018.11.02-15.57.20
+[2018.11.02-19.57.20:348][722]LogWorld: Bringing up level for play took: 0.001817
+[2018.11.02-19.57.20:361][722]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 -0.009
+[2018.11.02-19.57.22:429][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.57.22:465][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.57.22:494][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.57.22:554][848]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.02-19.57.29:070][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.57.29:335][144]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_0352C047FE47418A2620B2EDBA70E985E8.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_03.umap'
+[2018.11.02-19.58.03:044][651]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge289)
+[2018.11.02-19.58.06:954][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.58.07:046][124]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-19.58.07:074][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-19.58.07:074][124]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 11:58:07 AM)
+[2018.11.02-19.58.07:074][124]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-19.58.07:077][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002917s)
+[2018.11.02-19.58.07:078][124]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-19.58.07:078][124]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.11.02-19.58.07:078][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003784s)
+[2018.11.02-19.58.07:108][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-19.58.07:120][124]LogInit: FAudioDevice initialized.
+[2018.11.02-19.58.07:149][124]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-19.58.07:152][124]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-15.58.07
+[2018.11.02-19.58.07:153][124]LogWorld: Bringing up level for play took: 0.002019
+[2018.11.02-19.58.07:167][124]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.798
+[2018.11.02-19.59.21:559][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.59.21:594][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-19.59.21:618][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-19.59.21:663][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.02-19.59.30:217][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.02-19.59.32:708][198]LogRenderer: Reallocating scene render targets to support 932x600 Format 10 NumSamples 1 (Frame:1).
+[2018.11.02-19.59.39:025][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-19.59.43:415][151]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge288)
+[2018.11.02-20.00.38:599][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.00.38:815][772]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_030A950F61467DDA53760F6DB3309A0EF2.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_03.umap'
+[2018.11.02-20.00.40:859][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.00.55:543][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.01.34:301][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.01.34:410][354]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-20.01.34:439][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-20.01.34:439][354]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 12:01:34 PM)
+[2018.11.02-20.01.34:439][354]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-20.01.34:442][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002902s)
+[2018.11.02-20.01.34:442][354]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-20.01.34:443][354]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2018.11.02-20.01.34:443][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003756s)
+[2018.11.02-20.01.34:470][354]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-20.01.34:480][354]LogInit: FAudioDevice initialized.
+[2018.11.02-20.01.34:512][354]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-20.01.34:513][354]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-16.01.34
+[2018.11.02-20.01.34:514][354]LogWorld: Bringing up level for play took: 0.001748
+[2018.11.02-20.01.34:528][354]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.159
+[2018.11.02-20.01.38:849][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.01.38:885][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-20.01.38:910][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.01.38:952][875]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.11.02-20.01.42:600][305]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.11.02-20.01.48:782][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.02-20.01.50:596][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.01.50:663][262]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-20.01.50:689][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-20.01.50:689][262]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 12:01:50 PM)
+[2018.11.02-20.01.50:689][262]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-20.01.50:692][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002785s)
+[2018.11.02-20.01.50:693][262]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-20.01.50:693][262]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.11.02-20.01.50:693][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003560s)
+[2018.11.02-20.01.50:722][262]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-20.01.50:734][262]LogInit: FAudioDevice initialized.
+[2018.11.02-20.01.50:763][262]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-20.01.50:765][262]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-16.01.50
+[2018.11.02-20.01.50:766][262]LogWorld: Bringing up level for play took: 0.001833
+[2018.11.02-20.01.50:779][262]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.409
+[2018.11.02-20.01.53:280][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.01.53:315][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-20.01.53:346][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.01.53:381][564]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.02-20.01.55:069][752]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.11.02-20.01.57:927][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.02.05:120][949]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.11.02-20.02.07:337][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.02.07:412][221]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-20.02.07:440][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-20.02.07:440][221]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 12:02:07 PM)
+[2018.11.02-20.02.07:440][221]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-20.02.07:443][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003134s)
+[2018.11.02-20.02.07:444][221]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-20.02.07:444][221]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2018.11.02-20.02.07:444][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.004075s)
+[2018.11.02-20.02.07:476][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-20.02.07:488][221]LogInit: FAudioDevice initialized.
+[2018.11.02-20.02.07:520][221]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-20.02.07:522][221]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-16.02.07
+[2018.11.02-20.02.07:523][221]LogWorld: Bringing up level for play took: 0.002610
+[2018.11.02-20.02.07:539][221]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 -0.832
+[2018.11.02-20.02.14:472][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.02.14:506][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-20.02.14:536][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.02.14:577][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.11.02-20.02.17:944][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.02.32:129][132]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.11.02-20.02.33:765][325]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.11.02-20.02.35:986][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.02.48:719][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.02.48:785][114]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-20.02.48:814][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-20.02.48:814][114]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 12:02:48 PM)
+[2018.11.02-20.02.48:814][114]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-20.02.48:817][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003094s)
+[2018.11.02-20.02.48:818][114]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-20.02.48:818][114]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2018.11.02-20.02.48:818][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003993s)
+[2018.11.02-20.02.48:845][114]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-20.02.48:857][114]LogInit: FAudioDevice initialized.
+[2018.11.02-20.02.48:886][114]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-20.02.48:888][114]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-16.02.48
+[2018.11.02-20.02.48:889][114]LogWorld: Bringing up level for play took: 0.002202
+[2018.11.02-20.02.48:904][114]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.534
+[2018.11.02-20.02.52:549][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.02.52:585][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-20.02.52:616][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.02.52:705][553]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.11.02-20.02.57:165][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.03.29:157][901]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.02-20.03.29:184][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.02-20.03.29:184][901]PIE: New page: PIE session: Level_03 (Nov 2, 2018, 12:03:29 PM)
+[2018.11.02-20.03.29:185][901]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03
+[2018.11.02-20.03.29:188][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
+[2018.11.02-20.03.29:188][901]LogAIModule: Creating AISystem for world Level_03
+[2018.11.02-20.03.29:188][901]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2018.11.02-20.03.29:188][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Level_03.Level_03 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 (0.003637s)
+[2018.11.02-20.03.29:221][901]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.02-20.03.29:234][901]LogInit: FAudioDevice initialized.
+[2018.11.02-20.03.29:267][901]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.11.02-20.03.29:271][901]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03.Level_03 up for play (max tick rate 0) at 2018.11.02-16.03.29
+[2018.11.02-20.03.29:272][901]LogWorld: Bringing up level for play took: 0.003634
+[2018.11.02-20.03.29:287][901]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Level_03 0.917
+[2018.11.02-20.04.02:440][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.04.02:475][875]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.02-20.04.02:505][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.02-20.04.02:540][878]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.11.02-20.04.06:858][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.02-20.04.21:483][795]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/Boss/Boss.Boss
+[2018.11.02-20.04.33:478][793]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/2DSideScrollerBP/Blueprints/Boss/BossTree.BossTree
+[2018.11.02-20.04.55:707][319]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/2DSideScrollerBP/Blueprints/BTT_Jump.BTT_Jump
+[2018.11.02-20.05.19:308][840]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/BossTree28BF28CA4FC1F1717E8F04B9089C5116.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/Boss/BossTree.uasset'
+[2018.11.02-20.05.57:673][713]LogSlate: Took 0.007232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.02-20.06.03:073][ 97]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.06.33:296][399]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.06.47:524][402]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.06.53:743][847]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.06.54:599][873]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Boss0162BA1F4B8022EED2C87487CD9C3281.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/Boss/Boss.uasset'
+[2018.11.02-20.08.06:950][690]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.08.08:139][748]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/BossED22A3914F318847F9E1FFA3A4D6EACC.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/Boss/Boss.uasset'
+[2018.11.02-20.13.42:360][619]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.14.11:096][339]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_03_Auto106C07BED49D2D6BE5DEF0D939AA17DA4.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Level_03_Auto1.umap'
+[2018.11.02-20.14.11:102][339]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Level_03' took 0.129
+[2018.11.02-20.14.11:102][339]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
+[2018.11.02-20.14.11:105][339]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Boss/Boss] ([1] browsable assets)...
+[2018.11.02-20.14.11:105][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Boss/Boss]
+[2018.11.02-20.14.11:212][339]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Boss_Auto107315F0C423583281D7401A0E748A71D.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Boss/Boss_Auto1.uasset'
+[2018.11.02-20.14.11:218][339]LogFileHelpers: Auto-saving content packages took 0.114
+[2018.11.02-20.15.14:168][991]BlueprintLog: New page: Compile Boss
+[2018.11.02-20.15.39:014][179]LogSlate: Window 'BTT_Jump' being destroyed
+[2018.11.02-20.15.39:019][179]LogSlate: Window 'BTT_Jump' being destroyed
+[2018.11.02-20.15.39:119][179]LogPackageName: SearchForPackageOnDisk took   0.100s, but failed to resolve Transient.umap.
+[2018.11.02-20.15.39:119][179]LogLevel: Warning: WARNING: The map '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' does not exist.
+[2018.11.02-20.15.39:214][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.02-20.15.40:270][254]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/Level_03BBEB0E7242D6FDBE6D5776B3D4588509.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Maps/Level_03.umap'
+[2018.11.02-20.15.42:758][400]LogSlate: Window 'Save Content' being destroyed
+[2018.11.02-20.15.42:893][400]LogSavePackage: Moving '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Saved/BossAC8D8C284867108C873E8C9661CC3317.tmp' to '../../../../../../Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/2DSideScrollerBP/Blueprints/Boss/Boss.uasset'
+[2018.11.02-20.15.43:029][400]LogSlate: Window 'GAME480 - Unreal Editor' being destroyed
+[2018.11.02-20.15.43:030][400]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.02-20.15.43:239][401]Cmd: QUIT_EDITOR
+[2018.11.02-20.15.43:322][401]LogExit: Preparing to exit.
+[2018.11.02-20.15.43:458][401]LogDirectoryWatcher: A directory notification failed for 'C:/Users/xmorg/Desktop/GAME480/Game-480---Game-Project/GAME480/Content/', and we were unable to create a new request.
+[2018.11.02-20.15.43:495][401]LogExit: Editor shut down
+[2018.11.02-20.15.43:495][401]LogExit: Transaction tracking system shut down
+[2018.11.02-20.15.43:689][401]LogExit: Object subsystem successfully closed.
+[2018.11.02-20.15.43:713][401]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.02-20.15.43:716][401]LogD3D11RHI: Shutdown
+[2018.11.02-20.15.43:716][401]LogD3D11RHI: CleanupD3DDevice
+[2018.11.02-20.15.43:717][401]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.02-20.15.43:738][401]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (618)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.11.02-20.15.43:739][401]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.11.02-20.15.43:740][401]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.11.02-20.15.44:673][401]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.11.02-20.15.44:674][401]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.11.02-20.15.44:729][401]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.02-20.15.44:734][401]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.02-20.15.44:735][401]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.11.02-20.15.44:735][401]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.11.02-20.15.44:981][401]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.11.02-20.15.44:982][401]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.11.02-20.15.44:982][401]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.11.02-20.15.44:982][401]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.11.02-20.15.44:982][401]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.11.02-20.15.44:982][401]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.11.02-20.15.44:985][401]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.11.02-20.15.44:986][401]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.02-20.15.44:987][401]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.02-20.15.45:087][401]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.02-20.15.45:188][401]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.02-20.15.45:189][401]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.02-20.15.45:189][401]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.02-20.15.45:190][401]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.02-20.15.45:191][401]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.02-20.15.45:197][401]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.02-20.15.45:198][401]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.02-20.15.45:199][401]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.02-20.15.45:200][401]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.02-20.15.45:200][401]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.02-20.15.45:283][401]LogDerivedDataCache: Shutdown
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.02-20.15.45:283][401]LogXGEController: Cleaning working directory: C:/Users/xmorg/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.02-20.15.45:283][401]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.02-20.15.45:284][401]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.02-20.15.45:285][401]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.02-20.15.45:285][401]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.02-20.15.45:290][401]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.02-20.15.45:291][401]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.02-20.15.45:320][401]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.02-20.15.45:320][401]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.02-20.15.45:320][401]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B06ACEF-4CD0-021C-1488-6CB9E3919280%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=92ac503443805d3e83e4b696282a32e7%7C0264b3825d3d4c9db050d12b38bb07a9%7Cd9f15880-45f0-4ddb-a61c-4da73ca1ecc4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.02-20.15.45:351][401]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.02-20.15.45:352][401]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.02-20.15.45:353][401]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.02-20.15.45:353][401]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.02-20.15.45:354][401]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.02-20.15.45:361][401]LogExit: Exiting.
+[2018.11.02-20.15.45:365][401]Log file closed, 11/02/18 16:15:45
